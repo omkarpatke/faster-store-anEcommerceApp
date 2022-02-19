@@ -20,7 +20,7 @@
     justify-content:center;
     align-items: center;
     padding: 1rem 3rem 2rem 3rem;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 3rem;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.1);
     background-color: var(--white-color);
@@ -67,7 +67,7 @@
 }
 
 .login-btn{
-    padding: 8px 2.4rem 8px 2.4rem;
+    padding: 8px 2.4rem;
     width: max-content;
     margin: 0 auto;
     border-radius: 1rem;
@@ -84,7 +84,7 @@
 }
 
 .signUp-with-google-btn{
-    padding: 5px 2.4rem 5px 2.4rem;
+    padding: 5px 2.4rem;
     width: max-content;
     margin: 0 auto;
     border-radius: 1rem;
