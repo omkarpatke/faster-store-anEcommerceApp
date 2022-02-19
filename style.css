@@ -43,15 +43,15 @@
 .navbar{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 4rem;
     border-bottom: 1px solid;
-    gap: 30%;
     background-color: var(--white-color);
     position: sticky;
     top: 1.5rem;
     z-index: 3;
+    padding: 0 4rem 0 4rem;
 }
 
 .nav-brand{
@@ -153,6 +153,10 @@
 
 .img{
     width: 100%;
+}
+
+.desk-img{
+    margin-top: 1.5rem;
 }
 
 .guide-container{
