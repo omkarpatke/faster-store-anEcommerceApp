@@ -42,16 +42,71 @@
     <div class="cycles-main-container">
        <div class="filter-container">
            <h2 class="filter-name">FILTER</h2>
-          <div class="filters">
+           <div class="filters">
+
            <div class="filter range">
-               <h3>Price Range</h3>
-            <div class="price-range">
-                <input type="range" name="price-range" id="price-range" min="2000" max="20000">
-            </div>
+               <h2>Price Range</h2>
+               <div class="price-input">
+                   <div class="field">
+                       <span>Min</span>
+                       <input type="number" class="input-min" value="2500">
+                   </div>
+                   <div class="separator">-</div>
+                   <div class="field">
+                    <span>Max</span>
+                    <input type="number" class="input-max" value="20000">
+                   </div>
+                </div>
+
+                <div class="slider">
+                    <div class="progress">
+
+                    </div>
+                </div>
+                <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="20000" value="2500" step="100">
+                    <input type="range" class="range-max" min="0" max="20000" value="20000" step="100">
+                </div>
            </div>
-           <hr>
            
-           <div class="brands-filter-input">
+
+           <div class="filter sort-filter">
+               <h3>Sort</h3>
+               <div class="radio-input">
+                <input type="radio" name="sort">
+                <label for="low-to-high">low-to-high</label>
+               </div>
+
+               <div class="radio-input">
+                <input type="radio" name="sort">
+                <label for="high-to-low">high-to-low</label>
+               </div>
+           </div>
+           
+           <div class="filter rating-filter">
+               <h3>Ratings</h3>
+               <div class="check-box-input">
+                <input type="checkbox">
+                <label for="4-star"> 4 &#9733 &Above</label>
+               </div>
+
+               <div class="check-box-input">
+                <input type="checkbox">
+                <label for="3-star"> 3 &#9733 &Above</label>
+               </div>
+
+               <div class="check-box-input">
+                <input type="checkbox">
+                <label for="2-star"> 2 &#9733 &Above</label>
+               </div>
+
+               <div class="check-box-input">
+                <input type="checkbox">
+                <label for="1-star"> 1 &#9733 &Above</label>
+               </div>
+           </div>
+
+           <div class="filter brands-filter-input">
             <h3>Brands</h3>
             <div class="check-box-input">
                 <input type="checkbox">
@@ -77,9 +132,10 @@
                 <input type="checkbox">
                 <label for="BSA Ladybird">BSA Ladybird</label>
             </div>
-          </div>
-          <hr>
-        <div class="bike-type-filter">
+           </div>
+          
+
+           <div class="filter bike-type-filter">
             <h3>Bike Type</h3>
             <div class="radio-input">
                 <input type="radio" name="bike-type">
@@ -95,10 +151,10 @@
                 <input type="radio" name="bike-type">
                 <label for="Mountian Bikes">Mountian Bikes</label>
             </div>
-        </div>
-        <hr>
+           </div>
+          
 
-        <div class="gender-filter">
+           <div class="filter gender-filter">
             <h3>Gender</h3>
             <div class="gender-checkbox-input">
                 <input type="checkbox" name="gender">
@@ -109,10 +165,10 @@
                 <input type="checkbox" name="gender">
                 <label for="Female">Female</label>
             </div>
-        </div>
+           </div>
    
+          </div>
         </div>
-       </div>
 
        <div class="products-container">
 
@@ -261,5 +317,7 @@
         </div>
         <!-- ©2022 Track and Trail, All Rights Reserved -->
     </footer>
+
+    <script src="cycles.js"></script>
 </body>
 </html>
