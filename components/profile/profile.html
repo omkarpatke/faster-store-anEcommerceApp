@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="signIn.css">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/Images/cycle-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/components/cart/cart.css">
 </head>
 <body>
     <div class="sub-header">
@@ -42,27 +42,23 @@
         
        </div>
     </nav>
+    
+    <div class="profile-container">
+        <div class="profile-card">
+            <h2>Profile</h2>
+            <div class="user-info-container">
+                <img src="/Images/pngwing.com.png" alt="user-img">
 
-    <div class="login-container">
-        <h3 class="login-heading">Account Information</h3>
-        <div class="login-card">
-            <h2>Sign In</h2>
-            <form class="logIn-form">
-                <label for="email" aria-required="true">E-mail address<span>*</span></label>
-                <input type="email" name="user-email" id="login-eamil-input">
-
-                <label for="password" aria-required="true">Password<span>*</span></label>
-                <input type="password" name="login-password" id="login-password">
-
-                <a href="#" class="forgot-password-link">Forgot your password?</a>
-
-                <button class="login-btn" type="submit"> Sign In </button>
-            </form>
-            <h2>OR</h2>
-            <a href="#" class="signIn-with-google-btn"><i class="lni lni-google"></i> <span>Sign in with google</span></a>
-
-            <p>I Don't Have An Account</p>
-            <a href="/components/signUp/signUp.html">CREATE AN ACCOUNT</a>
+                <div class="user-info">
+                  <div class="user-name"><strong>Name:</strong>   Omkar Sanjay Patke</div>
+                  <div class="user-email"><strong>Email:</strong>   omkarpatke1101@gmail.com</div>
+                  <div class="user-phone-number"><strong>Phone No:</strong>   9876543217</div>
+                </div>
+            </div>
+            <div class="btns-container">
+                <a href="#" class="product-btn switch-btn">Switch to Another Account</a>
+                <a href="/index.html" class="proceed-to-checkout-btn logout-btn">Logout</a>
+            </div>
         </div>
     </div>
 
@@ -94,9 +90,9 @@
             <ul>
                 <h2 class="footer-links-heading">Follow Us</h2>
                 <div class="social-media-links">
-                    <li><a href="#"><i class="facebook-link lni lni-facebook-original"></i></a></li>
-                    <li><a href="#"><i class="twitter-link lni lni-twitter-original"></i></a></li>
-                    <li><a href="#"><i class="linkedIn-link lni lni-linkedin-original"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/omkar.patke.1/" class="facebook-link"><i class="lni lni-facebook-original"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/omkar_patke" class="twitter-link"><i class="lni lni-twitter-original"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/omkar-patke-a61b221ab/" class="linkedIn-link"><i class="lni lni-linkedin-original"></i></a></li>
                 </div>
             </ul>
         </div>
